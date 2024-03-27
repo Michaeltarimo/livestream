@@ -8,7 +8,6 @@
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
-    "build": "echo \"Error: no build step required for this project.\" && exit 1",
     "prettify": "prettier --write ."
   },
   "repository": {
@@ -35,11 +34,5 @@
     "eslint": "^7.32.0",
     "nodemon": "^2.0.7",
     "prettier": "^2.3.2"
-  },
-  "vercel": {
-    "version": 2,
-    "builds": [
-      { "src": "*.js", "use": "@vercel/node" }
-    ]
   }
 }
