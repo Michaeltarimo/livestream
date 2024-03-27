@@ -12,7 +12,7 @@ app.use('/', express.static(__dirname));
 app.get('/', function(req, res) {
     res.sendFile(__dirname + '/index.html')
 });
-app.get('/agents', function(req, res) {
+app.get('/agent', function(req, res) {
     res.sendFile(__dirname + '/index-agents.html')
 });
 
