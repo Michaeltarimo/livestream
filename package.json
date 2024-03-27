@@ -8,7 +8,6 @@
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
-    "build": "echo \"Error: no build step required for this project.\" && exit 1",
     "prettify": "prettier --write ."
   },
   "repository": {
